@@ -21,7 +21,6 @@ rtmp {
             hls_playlist_length 30;
             hls_cleanup on;
 
-            # on_publish http://devtest.setidaknya.my.id/api/rtmp/auth;
             on_publish ${ON_PUBLISH_URL};
         }
     }
